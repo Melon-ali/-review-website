@@ -1,26 +1,38 @@
 import React from 'react';
-import "./Header.css";
-
+import { Container, Nav, Navbar, } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
+import './Header.css'
 const Header = () => {
-  return (
-    <div className="header-container">
-      <div>
-      <div className="row d-flex header align-items-center justify-content-center">
-          <div className="col-md-6">
-            <h1 className="title">
-              BE THE BASKETBALL <br /> STAR AND SHINE
-            </h1>
-            <p className="text-white text-center mt-3">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-              tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-            </p>
-            <button className="mt-3 about-btn">About Us</button>
-          </div>
-          <div className="col-md-6"></div>
-        </div>
-      </div>
-    </div>
-  );
+    return (
+        <div>
+            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+                <Container>
+                    <Navbar.Brand className="general" >GENERAL EDUCATION</Navbar.Brand>
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Navbar.Collapse id="responsive-navbar-nav">
+                        <Nav className="me-auto">
+
+                        </Nav>
+                        <Nav>
+                            <Nav.Link  ><NavLink to="/home" className="link">Home</NavLink></Nav.Link>
+                            <Nav.Link eventKey={2}>
+                                <NavLink to
+                                    ="/about" className="link">About</NavLink>
+                            </Nav.Link>
+                            <Nav.Link eventKey={2}>
+                                <NavLink to
+                                    ="/services" className="link">Services</NavLink>
+                            </Nav.Link>
+                            <Nav.Link eventKey={2}>
+                                <NavLink to
+                                    ="/blog" className="link">Blog</NavLink>
+                            </Nav.Link>
+                        </Nav>
+                    </Navbar.Collapse>
+                </Container>
+            </Navbar>
+        </div >
+    );
 };
 
 export default Header;

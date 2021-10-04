@@ -1,0 +1,16 @@
+.services-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-items: center;
+  align-items: end;
+  grid-row-gap: 40px;
+  margin: 50px 0;
+}
+.servises-area {
+  width: 90%;
+  margin: auto;
+  margin-top: 40px;
+}
+.servises-area img {
+  width: 100%;
+}

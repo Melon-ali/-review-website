@@ -1,0 +1,11 @@
+.enroll {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px;
+  background: rgb(241, 241, 241);
+  border-radius: 2px;
+  border: 1px solid rgb(216, 216, 216);
+}
+.text {
+  color: black;
+}
