@@ -1,10 +1,13 @@
-# Getting Started with Create React App
+# Generel Education
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [General Education](https://loving-volhard-d1d936.netlify.app/).
 
 ## Available Scripts
 
-In the project directory, you can run:
+- This is my general education
+- We are given high quality education here
+- And at the end of each of our batches everyone is given a certificate
+  In the project directory, you can run:
 
 ### `npm start`
 

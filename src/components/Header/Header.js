@@ -7,7 +7,7 @@ const Header = () => {
         <div>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
                 <Container>
-                    <Navbar.Brand className="general" >GENERAL EDUCATION</Navbar.Brand>
+                    <Navbar.Brand > General Education</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
@@ -25,7 +25,7 @@ const Header = () => {
                             </Nav.Link>
                             <Nav.Link eventKey={2}>
                                 <NavLink to
-                                    ="/blog" className="link">Blog</NavLink>
+                                    ="/update" className="link">Update</NavLink>
                             </Nav.Link>
                         </Nav>
                     </Navbar.Collapse>

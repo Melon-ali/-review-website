@@ -18,7 +18,7 @@
   font-weight: bold;
   font-size: 30px;
 }
-p {
+.text {
   color: white;
   font-size: 15px;
 }
@@ -29,5 +29,15 @@ p {
   margin: auto;
 }
 .coures {
-  padding: 50px;
+  text-align: center;
+  padding: 40px;
+}
+.cart-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-items: center;
+  align-items: end;
+  grid-row-gap: 40px;
+  margin: 50px 0;
+  text-align: center;
 }

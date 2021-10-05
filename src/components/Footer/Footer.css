@@ -1,10 +1,10 @@
 .footer-container {
   background-color: #191919;
-  padding: 50px;
+  padding: 20px;
   color: rgb(216, 209, 209);
 }
 .footer-icon {
-  padding: 20px;
+  padding: 10px;
 }
 .footer-icon .fab {
   padding: 15px;
@@ -12,4 +12,7 @@
   font-size: 24px;
   background: #656d60;
   border-radius: 50%;
+}
+.text {
+  color: white;
 }
