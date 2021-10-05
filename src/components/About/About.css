@@ -1,0 +1,20 @@
+.about {
+  background-image: url("https://i.ibb.co/XXmWxpt/img-4.jpg"),
+    linear-gradient(rgba(0, 0, 0, 0.363), rgba(0, 0, 0, 0.363));
+  height: 740px;
+  width: 100%;
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+p {
+  color: #212529;
+}
+.event {
+  border-radius: 10px;
+  padding: 30px;
+  width: 70%;
+  background-color: rgba(240, 248, 255, 0.479);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
